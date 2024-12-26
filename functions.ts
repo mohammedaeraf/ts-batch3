@@ -10,3 +10,7 @@ function calcTax(income:number): number {
     const tax = income * taxRate;
     return tax;
 }
+
+function greet(name:string): void {
+    console.log(`Hello ${name}`);
+}
